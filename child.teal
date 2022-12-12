@@ -10,7 +10,7 @@ txn OnCompletion
 int DeleteApplication
 ==
 ||
-bnz handle_update_or_delte
+bnz handle_update_or_delete
 
 txn ApplicationArgs 0
 method "reverse(string)string"
